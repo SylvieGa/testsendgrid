@@ -4,6 +4,7 @@ from models.settings import db
 from models.topic import Topic
 from models.user import User
 from models.comments import Comment
+from utils.email_helper import send_email
 
 from utils.redis_helper import create_csrf_token, validate_csrf
 
